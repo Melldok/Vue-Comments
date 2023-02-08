@@ -9,4 +9,4 @@
 
 La prueba ha sido realizada con los requerimentos solicitados (Vue, Pinia, Tailwind). Como fondo de app he utilizado un componente ajeno para que no fuera un fondo vacio. La ventana modal viene precargada por defecto como se pedia, pero se puede abrir en "Comentarios" y cerrar en el crossbar.
 
-El usuario puede enviar mensajes escribiendo y presionando enter. 
+El usuario puede enviar mensajes escribiendo y presionando enter o pulsando el boton de enviar. 
