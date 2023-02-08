@@ -70,7 +70,7 @@ export default {
     setup(){
         const ModalStore = useModalStore()
         const {messages} = ModalStore
-        
+        //Referenciando el input que queremos escuchar para enviarlo al store
         const newMessage = ref('')
 
         const formattedDate = () => {
@@ -81,6 +81,7 @@ export default {
 
         const handleSubmit = () => {
             if(newMessage.value.length > 0){
+                // Definiendo la estructura de mensaje que se enviara al store. 
                 ModalStore.addMessage({
                     id: 1,
                     msg: newMessage.value,

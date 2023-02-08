@@ -1,6 +1,7 @@
 import { defineStore } from "pinia";
 
 const formattedDate = () => {
+    //Format de la fecha como se pide en el mockup
     const options = { year: 'numeric', month: 'short', day: 'numeric', hour: 'numeric', minute: 'numeric' };
     const d = new Date;
     return d.toLocaleDateString('es-ES', options);
